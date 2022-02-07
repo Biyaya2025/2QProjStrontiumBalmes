@@ -2,10 +2,25 @@ body{
     color: #611c18;
     background-color: pink;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    float: right;
 }
 
-video{
-    background-color: white;
+div{
+    height: 500px;
+    width: 500px;
+    float: left;
+}
+
+img{
+    height: 25%;
+    width: 25%;
+    transition: width 2s, height 2s;
+}
+
+img:hover{
+    width: 75%;
+    height: 75%;
 }
 
 a{
@@ -40,32 +55,37 @@ a:hover{
 	height: 39px;
 }
 
-div{
-    float: left;
-    margin: 0px 5px 0px 5px;
-}
-
-h1,nav,aside{
-    text-align: center;
-}
-
-article{
-    text-align: justify;
-    margin: 40px;
-}
-
-video{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  
-    /* These center the video. */
-  }
-
-div:hover{
+.ibis_sprite:hover{
     opacity: 0.5;
 }
 
-.container{
-    margin: 0px 650px 0px 650px; /* This centers all the icons relative to the webpage. */
- }
+.clipstudio_sprite:hover{
+    opacity: 0.5;
+}
+
+.medibang_sprite:hover{
+    opacity: 0.5;
+}
+
+.artrocket_sprite:hover{
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -28,6 +28,58 @@ img {
     height: 100%; /*Standardizes height of the image.*/
 }
 
+a{
+    color: #cf0000;
+}
+
+a:hover{
+    color: indigo;
+}
+
+h5{
+    margin: 50px;
+}
+
+.ibis_sprite {
+	background: url(../images/image_sprites.png) no-repeat -4px -8px;
+	width: 42px;
+	height: 42px;
+}
+
+.clipstudio_sprite {
+	background: url(../images/image_sprites.png) no-repeat -53px -8px;
+	width: 45px;
+	height: 38px;
+}
+
+.artrocket_sprite {
+	background: url(../images/image_sprites.png) no-repeat -104px -11px;
+	width: 40px;
+	height: 39px;
+}
+
+.medibang_sprite{
+    background: url(../images/image_sprites.png) no-repeat -155px -9px;
+	width: 34px;
+	height: 39px;
+}
+
+div{
+    float:left;
+    margin: 10px;
+}
+
+div:hover{
+    opacity: 0.5;
+}
+
+.container{
+    margin: 0px 625px 0px 625px; /* This centers all the icons relative to the webpage. */
+ }
+
+
+
+
 
 
 

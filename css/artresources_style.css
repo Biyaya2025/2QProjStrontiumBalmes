@@ -4,8 +4,9 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-video{
-    background-color: white;
+img{
+    width: 600px;
+    height: 490px;
 }
 
 a{
@@ -14,6 +15,35 @@ a{
 
 a:hover{
     color: indigo;
+}
+
+
+#medibang{
+    width: 540px;
+}
+
+header, nav, aside{
+    text-align: center;
+}
+
+iframe, img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* These center the images and video. */
+}
+
+div{
+    margin: 60px;
+}
+
+article{
+    text-align: justify;
+}
+
+h5{
+    margin: 50px;
 }
 
 .ibis_sprite {
@@ -40,32 +70,28 @@ a:hover{
 	height: 39px;
 }
 
-div{
+.ibis_sprite,.clipstudio_sprite, .medibang_sprite, .artrocket_sprite{
     float: left;
-    margin: 0px 5px 0px 5px;
+    margin: 10px;
 }
 
-h1,nav,aside{
-    text-align: center;
+.ibis_sprite:hover{
+    opacity: 0.5;
 }
 
-article{
-    text-align: justify;
-    margin: 40px;
+.clipstudio_sprite:hover{
+    opacity: 0.5;
 }
 
-video{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  
-    /* These center the video. */
-  }
+.medibang_sprite:hover{
+    opacity: 0.5;
+}
 
-div:hover{
+.artrocket_sprite:hover{
     opacity: 0.5;
 }
 
 .container{
-    margin: 0px 650px 0px 650px; /* This centers all the icons relative to the webpage. */
+    margin: 0px 625px 0px 625px; /* This centers all the icons relative to the webpage. */
  }
+
